@@ -9,6 +9,6 @@ class Backer
     @backed_projects << project
     if project.backers.include?(self).nil?
       project.add_backer(self)
-    end 
+    end
   end
 end
